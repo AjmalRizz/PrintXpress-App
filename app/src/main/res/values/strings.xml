@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrintXpress</string>
+    <string name="app_tagline">Sri Lanka\'s Digital Printing Service</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_orders">My Orders</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- General / Common Buttons & Dialogs -->
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_ok">OK</string>
+    <string name="loading">Loading...</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="error_generic">An error occurred. Please try again.</string>
+    <string name="success_generic">Operation successful</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_logo_desc">PrintXpress Logo</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Welcome Back</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="link_forgot_password">Forgot Password?</string>
+    <string name="link_register">Don\'t have an account? Register</string>
+    
+    <!-- Register Screen -->
+    <string name="register_title">Create Account</string>
+    <string name="hint_fullname">Full Name</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_register">Register</string>
+    <string name="link_login">Already have an account? Login</string>
+
+    <!-- Forgot Password Screen -->
+    <string name="forgot_title">Reset Password</string>
+    <string name="forgot_description">Enter your email to receive a reset link</string>
+    <string name="btn_send_reset">Send Reset Link</string>
+    <string name="reset_email_sent">Password reset email sent successfully.</string>
+    <string name="back_to_login">Back to Login</string>
+
+    <!-- Home Fragment -->
+    <string name="home_search_hint">Search products...</string>
+    <string name="home_search_desc">Search Icon</string>
+    <string name="home_banner_1">🎉 Bulk Order Discount — 20% off 100+ copies</string>
+    <string name="home_banner_2">🎨 New Festive Designs Available Now</string>
+    <string name="home_section_categories">Browse by Category</string>
+    <string name="home_section_products">All Products</string>
+
+    <!-- Product List -->
+    <string name="empty_products">No products in this category yet</string>
+    <string name="btn_order_now">Order Now</string>
+
+    <!-- Product Detail -->
+    <string name="detail_specifications">Select Specifications</string>
+    <string name="label_size">Size</string>
+    <string name="label_material">Material</string>
+    <string name="label_quantity">Quantity</string>
+    <string name="label_total_price">Total Price:</string>
+    <string name="btn_place_order">Place Order</string>
+
+    <!-- Order Form -->
+    <string name="order_form_title">Place Order</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="upload_design">Upload Your Design</string>
+    <string name="upload_design_hint">Tap to Upload Your Design File (Max 20MB)</string>
+    <string name="or_divider">— OR —</string>
+    <string name="custom_instructions_title">Enter Custom Text / Instructions</string>
+    <string name="custom_instructions_hint">Describe your design, colors, or paste your text here</string>
+    <string name="delivery_option_title">Delivery Option</string>
+    <string name="delivery_pickup">Pickup</string>
+    <string name="delivery_home">Home Delivery</string>
+    <string name="btn_add_address">Add New Address</string>
+    <string name="btn_submit_order">Place Order</string>
+    <string name="error_no_design_or_text">Please upload a design file or enter custom instructions.</string>
+    <string name="error_no_address">Please add/select a delivery address.</string>
+    <string name="error_file_too_large">File size exceeds the 20MB limit.</string>
+    <string name="error_invalid_file_type">Invalid file type. Only JPG, PNG, and PDF are allowed.</string>
+    
+    <!-- Order Success -->
+    <string name="order_success_title">Order Placed Successfully!</string>
+    <string name="order_number_prefix">Order #</string>
+    <string name="btn_track_order">Track Your Order</string>
+    <string name="btn_continue_shopping">Continue Shopping</string>
+
+    <!-- My Orders Fragment -->
+    <string name="orders_title">My Orders</string>
+    <string name="tab_active">Active</string>
+    <string name="tab_completed">Completed</string>
+    <string name="tab_cancelled">Cancelled</string>
+    <string name="empty_orders">No orders here yet</string>
+    <string name="btn_view_details">View Details</string>
+
+    <!-- Order Detail -->
+    <string name="order_details_title">Order Details</string>
+    <string name="status_timeline">Status Timeline</string>
+    <string name="order_summary_card">Ordered Items</string>
+    <string name="design_details_card">Design Details</string>
+    <string name="delivery_details_card">Delivery Details</string>
+    <string name="price_card">Pricing Details</string>
+    <string name="btn_cancel_order">Cancel Order</string>
+    <string name="btn_reschedule_order">Reschedule Order</string>
+    
+    <!-- Notifications Fragment -->
+    <string name="notifications_title">Notifications</string>
+    <string name="btn_mark_all_read">Mark All as Read</string>
+    <string name="empty_notifications">No notifications yet</string>
+
+    <!-- Profile Fragment -->
+    <string name="profile_title">Profile</string>
+    <string name="menu_edit_profile">Edit Profile</string>
+    <string name="menu_saved_addresses">Saved Addresses</string>
+    <string name="menu_print_guidelines">Print Guidelines</string>
+    <string name="menu_faq">FAQ &amp; Support</string>
+    <string name="menu_logout">Logout</string>
+    <string name="logout_confirm">Are you sure you want to logout?</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="email_disabled_notice">Email address cannot be changed.</string>
+    <string name="btn_save_changes">Save Changes</string>
+
+    <!-- Saved Addresses -->
+    <string name="addresses_title">Saved Addresses</string>
+    <string name="btn_set_default">Set as Default</string>
+    <string name="btn_delete">Delete</string>
+    <string name="default_label">Default</string>
+    
+    <!-- Add Address -->
+    <string name="add_address_title">Add Address</string>
+    <string name="hint_address_label">Address Label (e.g. Home, Office)</string>
+    <string name="hint_full_address">Full Address</string>
+    <string name="hint_city">City</string>
+    <string name="chk_set_default">Set as Default Address</string>
+    <string name="btn_save_address">Save Address</string>
+
+    <!-- Guidelines -->
+    <string name="guidelines_title">Print Guidelines</string>
+    <string name="heading_formats">1. Accepted File Formats</string>
+    <string name="desc_formats">We accept the following formats for printing:\n• JPG/JPEG — recommended for photos and raster graphics.\n• PNG — recommended for designs requiring transparent backgrounds.\n• PDF — best for vector graphics and multi-page layouts.</string>
+    <string name="heading_resolution">2. Recommended Resolution</string>
+    <string name="desc_resolution">To avoid pixelated and blurry prints, verify resolution settings:\n• Standard Print Quality: Minimum 300 DPI.\n• Screen/Draft Quality: 72 DPI (might look blurry in print).</string>
+    <string name="heading_color">3. Color Mode</string>
+    <string name="desc_color">Use CMYK color mode for designing print artwork. Designing in RGB is acceptable, but automatic conversion to CMYK might result in slight color variations.</string>
+    <string name="heading_bleed">4. Bleed and Safe Zone</string>
+    <string name="desc_bleed">• Bleed Area: Add 3mm bleed margin around your designs to avoid white lines after cutting.\n• Safe Zone: Keep critical text and details 5mm away from the edge.</string>
+    <string name="heading_file_limit">5. File Size Limit</string>
+    <string name="desc_file_limit">The maximum file size limit is 20MB. For larger vector illustrations or multi-page formats, compress files to PDF or PNG formats.</string>
+
+    <!-- FAQ -->
+    <string name="faq_title">FAQ &amp; Support</string>
+    <string name="contact_support_heading">Contact Support</string>
+    <string name="support_email">Email: support@printxpress.lk</string>
+    <string name="support_phone">Phone: +94 11 234 5678</string>
+    <string name="btn_send_message">Send Message</string>
+    
+    <!-- FAQ Content -->
+    <string name="faq_q1">How long does printing take?</string>
+    <string name="faq_a1">Standard orders take 2-3 business days. Bulk orders (over 500 units) take 5-7 business days.</string>
+    <string name="faq_q2">Can I cancel my order?</string>
+    <string name="faq_a2">Orders can only be cancelled while the status is \"Pending\". Once printing begins, cancellation is not possible.</string>
+    <string name="faq_q3">What file format should I use?</string>
+    <string name="faq_a3">We recommend PDF for best quality, or PNG for transparent background designs.</string>
+    <string name="faq_q4">Do you deliver island-wide in Sri Lanka?</string>
+    <string name="faq_a4">Yes, we deliver to all 25 districts. Standard delivery takes 3-5 business days after printing.</string>
+    <string name="faq_q5">How do I track my order?</string>
+    <string name="faq_a5">Go to \"My Orders\" in the bottom navigation bar. Your order status updates in real-time.</string>
+    <string name="faq_q6">What payment methods are accepted?</string>
+    <string name="faq_a6">We support Cash on Pickup or Cash on Delivery. Online card payments are coming soon.</string>
+
+    <!-- Input Validation Errors -->
+    <string name="err_name_required">Full name is required.</string>
+    <string name="err_name_short">Name must be at least 2 characters.</string>
+    <string name="err_email_invalid">Please enter a valid email address.</string>
+    <string name="err_phone_invalid">Please enter a valid Sri Lankan phone number (starts with 07 and 10 digits total).</string>
+    <string name="err_password_short">Password must be at least 6 characters.</string>
+    <string name="err_passwords_mismatch">Passwords do not match.</string>
+    <string name="err_address_label_short">Address label must be at least 2 characters.</string>
+    <string name="err_full_address_required">Full address is required.</string>
+    <string name="err_city_required">City is required.</string>
+    <string name="err_auth_failed">Authentication failed: </string>
+    <string name="err_reset_failed">Reset link failed: </string>
+    <string name="err_order_failed">Order placement failed: </string>
+</resources>
