@@ -2,6 +2,10 @@
 
 A full-featured Android mobile application for a custom printing service business, built with **Java** and **Firebase**.
 
+<p align="center">
+  <img src="screenshots/home_screen.jpg" alt="PrintXpress Home Screen" width="320" style="border-radius: 16px;"/>
+</p>
+
 ## 📱 Features
 
 - **User Authentication** — Register, Login, Forgot Password (Firebase Auth)
